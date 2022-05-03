@@ -10,6 +10,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shadowgrum.testmod.TestMod;
+import net.shadowgrum.testmod.item.ModItemGroup;
 
 public class ModBlocks {
 
@@ -18,7 +19,7 @@ public class ModBlocks {
                     .collidable(true)
                     .strength(5f)
                     .requiresTool()),
-            ItemGroup.MISC);
+            ModItemGroup.TEST_ITEM_GROUP);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

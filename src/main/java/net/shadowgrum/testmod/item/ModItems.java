@@ -11,7 +11,7 @@ public class ModItems {
 
     public static final Item TEST_ITEM = registerItem("test_item",
             new Item(new FabricItemSettings()
-                    .group(ItemGroup.MISC) //groupa pod kterou to bude zařazeno ve hře
+                    .group(ModItemGroup.TEST_ITEM_GROUP) //jinak ItemGroup.--- //groupa pod kterou to bude zařazeno ve hře
                     .maxDamage(100)));
 
     private static Item registerItem(String name, Item item) {

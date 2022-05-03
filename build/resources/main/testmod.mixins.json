@@ -6,7 +6,6 @@
   "mixins": [
   ],
   "client": [
-    "TestModMixin"
   ],
   "injectors": {
     "defaultRequire": 1
